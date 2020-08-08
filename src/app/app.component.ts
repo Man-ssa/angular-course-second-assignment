@@ -7,4 +7,12 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angular-course-second-assignment';
+  username = '';
+
+  constructor() {
+  }
+
+  onUpdateUsername(event: any): void {
+    this.username = '';
+  }
 }
